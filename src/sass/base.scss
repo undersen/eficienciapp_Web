@@ -1,3 +1,96 @@
-.bg{
-	 
-}
+
+    section{
+           .module{
+        
+        h2{
+          margin-bottom: 40px;
+          font-size: 30px;
+        }
+        p{
+          margin-bottom: 40px;
+          font-size: 16px;
+          font-weight: 300;	
+        }
+        p:last-child {
+          margin-bottom: 0;
+        }
+        .content{
+          padding: 40px 0;
+         
+          }
+        }
+        .parallax {
+          height: 600px;
+          background-position: 50% 50%;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+
+          h1{
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 140px;
+            line-height: 600px;
+            font-weight: 700;
+            text-align: center;
+            text-transform: uppercase;
+            text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+          }
+        } 
+
+        .parallax-1{
+          background-image: url("../media/bg/bgOrange.png");
+          .body{
+            position: relative; 
+            top:20px;
+          }
+        }
+
+        .parallax-2{
+          background-image: url("../Media/bg/bgBlue.png");
+        }
+
+        .parallax-3{
+          background-image: url("../Media/bg/bgGreen.png");
+        } 
+
+
+        .module:last-child{
+          margin-bottom: 0;
+        }
+
+         .img-first { 
+    width: 300px;
+      }
+
+
+      }
+    
+  
+
+
+
+
+// section.module p:last-child {
+//   margin-bottom: 0;
+// }
+// section.module.content {
+//   padding: 40px 0;
+// }
+
+// section.module.parallax-1 {
+//   background-image: url("../media/bg/bgOrange.png");
+//   height: 600px;
+// }
+// section.module.parallax-2 {
+//   background-image: url("../Media/bg/bgBlue.png");
+// }
+// section.module.parallax-3 {
+//   background-image: url("../Media/bg/bgGreen.png");
+// }
+// section.module.parallax-4 {
+//   background-image: url("../Media/bg/background4.png");
+// }

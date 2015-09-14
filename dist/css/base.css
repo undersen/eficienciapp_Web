@@ -1,0 +1,102 @@
+section.module h2 {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  font-size: 35px; }
+
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300; }
+
+section.module p:last-child {
+  margin-bottom: 0; }
+
+section.module .content {
+
+  padding: 40px 0; }
+
+  section.content  {
+  margin:20px 0px; }
+
+section.parallax {
+  
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  section.parallax h1 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 140px;
+    line-height: 600px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+
+section.parallax-1 {
+  background-image: url("../media/bg/bgOrange.png");
+  height: 350px;
+  color: white; }
+  section.parallax-1.body {
+    position: relative;
+    top: 20px; }
+
+section.parallax-2 {
+  background-image: url("../Media/bg/bgBlue.png"); }
+
+section.parallax-3 {
+  background-image: url("../Media/bg/bgGreen.png");
+  height: 350px; }
+
+
+.img-first {
+  width: 300px; }
+  video{
+width: 100%;
+  }
+  #video-full{    box-shadow: 15px 15px 44px grey;}
+  
+  section.content.vertical-align  {
+    margin:0px 0px; 
+    background-color: #ebebeb;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+  }
+
+section.content.vertical-align a{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+
+   -webkit-filter: grayscale(100%);
+    opacity: 0.3;
+
+     -webkit-transition: all 2s ease-out;
+    -moz-transition: all 2s ease-out;
+    -o-transition: all 2s ease-out;
+    transition: all 2s ease-out;
+
+}  
+
+
+section.content.vertical-align a:hover{
+   -webkit-filter: grayscale(1%);
+    opacity: 1.0;
+}  
+
+
+
+  section.content.vertical-align a img{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+}  
