@@ -6,10 +6,10 @@
 	<title></title>
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
-	
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="js/chart.js" type="text/javascript" charset="utf-8" async defer></script>
-<link rel="stylesheet" href="css/chart.css">
+	<link rel="stylesheet" href="css/chart.css">
 </head>
 <body>
 	<div class="menu-bar">
@@ -89,72 +89,115 @@
 												</div>
 												<!-- </div> -->
 											</section>
-											<section class="module content">
+											<section id="charts" class="module content">
 												<div class="margin">
 													<h2 class="segoe">Que es eficienciapp</h2>
-													<div class="col-md-4"></div>
-													<div class="col-md-8">
-														<div class="huge-chartbox">
-															<div id="failureChart1" chart-type="donut" data-chart-max="100" data-chart-segments="{ &quot;0&quot;:[&quot;0&quot;,&quot;30&quot;,&quot;#19C5F5&quot;],  &quot;1&quot;:[&quot;30&quot;,&quot;70&quot;,&quot;#ecebeb&quot;] }" data-chart-text="30%" data-chart-caption="Failure Rate" data-chart-initial-rotate="180">
+
+													<div class="container">
+														<div class="col-md-4">
+															<div class="huge-chartbox">
+																<div id="failureChart1"
+  chart-type="donut"
+  data-chart-max="4000"
+  data-chart-segments='{  "0":["0","3240","#F18605"],  "1":["3240","760", "#ecebeb"]  }'
+  data-chart-text="$3240"
+  data-chart-caption="Things to do"
+  >
+																</div>
+
+															</div>
 														</div>
 
+														
+														<div class="col-md-4">
+															<div class="">
+																
+															</div>
+															<div class="huge-chartbox">
+																<div id="failureChart2" 
+																 chart-type="donut"
+
+  chart-type="donut"
+  data-chart-max="4000"
+  data-chart-segments='{  "0":["0","1080","#21A7E0"],  "1":["1080","2920", "#ecebeb"]  }'
+  data-chart-text="$1080"
+  data-chart-caption="Things to do"
+  >
+																</div>
+
+															</div>
+														</div>
+
+
+														<div class="col-md-4">
+															<div class="huge-chartbox">
+																<div id="failureChart3"  chart-type="donut"
+ 
+  chart-type="donut"
+  data-chart-max="4000"
+  data-chart-segments='{  "0":["0","540","#90C73E"],  "1":["540","3460", "#ecebeb"]  }'
+  data-chart-text="$540"
+  data-chart-caption="Things to do"
+  >
+																</div>
+
+															</div>
+														</div>
 													</div>
+												</section>
+												<section class="module parallax parallax-2">
+													<div class="container">
+														<h2 class="text-right">Como funciona eficienciapp </h2>
 
-												</div>
-											</section>
-											<section class="module parallax parallax-2">
-												<div class="container">
-													<h2 class="text-right">Como funciona eficienciapp </h2>
+														<div class="col-md-4">
+															<div class="iphone">
+																<div class="iphone-content">
+																	<div id="slider">
+																		<figure>
+																			<img src="media/iphone/1.jpg" alt="">
+																			<img src="media/iphone/2.jpg" alt="">
+																			<img src="media/iphone/3.jpg" alt="">
+																			<img src="media/iphone/4.jpg" alt="">
+																		</figure>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col-md-8">
+															<div class="parallax-2-container">
+																<p>Compara uno a uno tecnología según su precio de mercado, consumo energético y vida útil.</p>
+																<p>Construye diagnósticos de potenciales de ahorro energético en todo tu hogar.</p>
+																<p>Elige la tecnología ideal para ti, cómprala y espera que la instalemos donde tú quieras.</p>
+																<p>Comienza a ahorrar y a cambiar el mundo ahora.</p>
+																<div class="store-section">
 
-													<div class="col-md-4">
-														<div class="iphone">
-															<div class="iphone-content">
-																<div id="slider">
-																	<figure>
-																		<img src="media/iphone/1.jpg" alt="">
-																		<img src="media/iphone/2.jpg" alt="">
-																		<img src="media/iphone/3.jpg" alt="">
-																		<img src="media/iphone/4.jpg" alt="">
-																	</figure>
+																	<div class="col-md-6 text-center"><button type="button" class="btn btn-transparent margin-button">
+																		<img src="media/store/appStore.png" alt="">
+																	</button></div>
+																	<div class="col-md-6 text-center"><button type="button" class="btn btn-transparent margin-button">
+																		<img src="media/store/appStore.png" alt="">
+																	</button></div>
 																</div>
 															</div>
 														</div>
 													</div>
-													<div class="col-md-8">
-														<div class="parallax-2-container">
-															<p>Compara uno a uno tecnología según su precio de mercado, consumo energético y vida útil.</p>
-															<p>Construye diagnósticos de potenciales de ahorro energético en todo tu hogar.</p>
-															<p>Elige la tecnología ideal para ti, cómprala y espera que la instalemos donde tú quieras.</p>
-															<p>Comienza a ahorrar y a cambiar el mundo ahora.</p>
-															<div class="store-section">
+												</section>
+												<section class="module content vertical-align">
 
-																<div class="col-md-6 text-center"><button type="button" class="btn btn-transparent margin-button">
-																	<img src="media/store/appStore.png" alt="">
-																</button></div>
-																<div class="col-md-6 text-center"><button type="button" class="btn btn-transparent margin-button">
-																	<img src="media/store/appStore.png" alt="">
-																</button></div>
-															</div>
-														</div>
+													<a href="http://www.startupchile.org/"><img class="img-footer" src="./media/logos/start.png" alt=""></a>
+													<a href="http://efficienza.org/"><img class="img-footer" src="./media/logos/efficienza.png" alt=""></a>
+													<a href="http://greentownlabs.org/"><img class="img-footer" src="./media/logos/green.png" alt=""></a>
+
+
+
+												</section>
+												<section class="module parallax parallax-3">
+													<div class="container">
+														<h1>Skills!</h1>
 													</div>
-												</div>
-											</section>
-											<section class="module content vertical-align">
+												</section>
 
-												<a href="http://www.startupchile.org/"><img class="img-footer" src="./media/logos/start.png" alt=""></a>
-												<a href="http://efficienza.org/"><img class="img-footer" src="./media/logos/efficienza.png" alt=""></a>
-												<a href="http://greentownlabs.org/"><img class="img-footer" src="./media/logos/green.png" alt=""></a>
-
-
-
-											</section>
-											<section class="module parallax parallax-3">
-												<div class="container">
-													<h1>Skills!</h1>
-												</div>
-											</section>
-
-										</main>
-									</div>
-								</body>
-								</html>
+											</main>
+										</div>
+									</body>
+									</html>

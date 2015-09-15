@@ -227,3 +227,7 @@ div#slider figure {
     
     padding-top: 20px;
 }
+
+#charts{
+  height: 400px;
+}
