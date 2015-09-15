@@ -3,6 +3,7 @@ var gulp = require('gulp'),
     sass = require('gulp-sass'),
     image = require('gulp-image'),
     minifyHTML = require('gulp-minify-html'),
+    var less = require('gulp-less'),
     pngquant = require('imagemin-pngquant');
 
 
@@ -16,6 +17,13 @@ gulp.task('html', function() {
     .pipe(minifyHTML(opts))
     .pipe(gulp.dest('dist/'));
   });
+
+
+gulp.task('less', function () {
+  return gulp.src('./src/sass/*.less')
+    .pipe(less())
+    .pipe(gulp.dest('./public/css'));
+});
 
 
 

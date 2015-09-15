@@ -6,44 +6,46 @@
 	<title></title>
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/base.css">
-
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="js/chart.js" type="text/javascript" charset="utf-8" async defer></script>
+<link rel="stylesheet" href="css/chart.css">
 </head>
 <body>
-<div class="menu-bar">
-	<div class="container">
-                <nav class="navbar navbar-default">
-                    <div class="container-fluid">
-                        <!-- Brand and toggle get grouped for better mobile display -->
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand" href="#"><img class="img-responsive "src="media/logos/LogoLetras.png" id="logo" width="152px" height="80px"></a>
-                        </div>
+	<div class="menu-bar">
+		<div class="container">
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#"><img class="img-responsive "src="media/logos/LogoLetras.png" id="logo" width="152px" height="80px"></a>
+					</div>
 
-                        <!-- Collect the nav links, forms, and other content for toggling -->
-                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
 
 
-                            <ul class="nav navbar-nav navbar-right">
-                                <li><a id="index" href="#">Inicio</a></li>
-                                <li><a id="whoWe"href="#">Quiénes Somos</a></li>
-                                <li><a id="whyuse"href="#">Por qué usar EficienciApp</a></li>
-                                <li><a id="howWork"href="#">Cómo Funciona</a></li>
-                                <li><a id="keeptouch"href="#">Contáctenos</a></li>
+						<ul class="nav navbar-nav navbar-right">
+							<li><a id="index" href="#">Inicio</a></li>
+							<li><a id="whoWe"href="#">Quiénes Somos</a></li>
+							<li><a id="whyuse"href="#">Por qué usar EficienciApp</a></li>
+							<li><a id="howWork"href="#">Cómo Funciona</a></li>
+							<li><a id="keeptouch"href="#">Contáctenos</a></li>
 
-                            </ul>
-                        </div><!-- /.navbar-collapse -->
-                    </div><!-- /.container-fluid -->
-                </nav>
-                </div>
-                </div>
-            
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
+			</nav>
+		</div>
+	</div>
+
 	<div id="bg-full">
 		<div id="bg-video">
 			<video autobuffer autoloop loop autoplay muted>
@@ -73,10 +75,10 @@
 											<div class="body">
 												<div class="col-md-6">
 													<div class="parallax-1-container">
-													<p>El problema actual a resolver es que estamos entrando en una crisis de energía y agua. El mayor consumo energético está directamente relacionado con las emisiones de gases de efecto invernadero, lo que causa calentamiento global y genera impactos negativos en nuestra salud.</p>
+														<p>El problema actual a resolver es que estamos entrando en una crisis de energía y agua. El mayor consumo energético está directamente relacionado con las emisiones de gases de efecto invernadero, lo que causa calentamiento global y genera impactos negativos en nuestra salud.</p>
 
 
-													<p>Eficienciapp es una aplicación diseñada para educar a las personas en el uso de nuevas tecnologías que les permitan optimizar su consumo energético, logrando un impacto positivo tanto en el medio ambiente en el que se desenvuelven día a día, como en su propio bolsillo.</p>
+														<p>Eficienciapp es una aplicación diseñada para educar a las personas en el uso de nuevas tecnologías que les permitan optimizar su consumo energético, logrando un impacto positivo tanto en el medio ambiente en el que se desenvuelven día a día, como en su propio bolsillo.</p>
 													</div>
 												</div>
 												<div class="col-md-6">
@@ -85,71 +87,74 @@
 														</video>
 													</div>
 												</div>
-											<!-- </div> -->
-										</section>
-										<section class="module content">
-											<div class="margin">
-												<h2 class="segoe">Que es eficienciapp</h2>
-												<div class="col-md-4"></div>
-												<div class="col-md-8">
+												<!-- </div> -->
+											</section>
+											<section class="module content">
+												<div class="margin">
+													<h2 class="segoe">Que es eficienciapp</h2>
+													<div class="col-md-4"></div>
+													<div class="col-md-8">
+														<div class="huge-chartbox">
+															<div id="failureChart1" chart-type="donut" data-chart-max="100" data-chart-segments="{ &quot;0&quot;:[&quot;0&quot;,&quot;30&quot;,&quot;#19C5F5&quot;],  &quot;1&quot;:[&quot;30&quot;,&quot;70&quot;,&quot;#ecebeb&quot;] }" data-chart-text="30%" data-chart-caption="Failure Rate" data-chart-initial-rotate="180">
+														</div>
+
+													</div>
 
 												</div>
+											</section>
+											<section class="module parallax parallax-2">
+												<div class="container">
+													<h2 class="text-right">Como funciona eficienciapp </h2>
 
-											</div>
-										</section>
-										<section class="module parallax parallax-2">
-											<div class="container">
-												<h2 class="text-right">Como funciona eficienciapp </h2>
+													<div class="col-md-4">
+														<div class="iphone">
+															<div class="iphone-content">
+																<div id="slider">
+																	<figure>
+																		<img src="media/iphone/1.jpg" alt="">
+																		<img src="media/iphone/2.jpg" alt="">
+																		<img src="media/iphone/3.jpg" alt="">
+																		<img src="media/iphone/4.jpg" alt="">
+																	</figure>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col-md-8">
+														<div class="parallax-2-container">
+															<p>Compara uno a uno tecnología según su precio de mercado, consumo energético y vida útil.</p>
+															<p>Construye diagnósticos de potenciales de ahorro energético en todo tu hogar.</p>
+															<p>Elige la tecnología ideal para ti, cómprala y espera que la instalemos donde tú quieras.</p>
+															<p>Comienza a ahorrar y a cambiar el mundo ahora.</p>
+															<div class="store-section">
 
-												<div class="col-md-4">
-													<div class="iphone">
-														<div class="iphone-content">
-															<div id="slider">
-																<figure>
-																	<img src="media/iphone/1.jpg" alt="">
-																	<img src="media/iphone/2.jpg" alt="">
-																	<img src="media/iphone/3.jpg" alt="">
-																	<img src="media/iphone/4.jpg" alt="">
-																</figure>
+																<div class="col-md-6 text-center"><button type="button" class="btn btn-transparent margin-button">
+																	<img src="media/store/appStore.png" alt="">
+																</button></div>
+																<div class="col-md-6 text-center"><button type="button" class="btn btn-transparent margin-button">
+																	<img src="media/store/appStore.png" alt="">
+																</button></div>
 															</div>
 														</div>
 													</div>
 												</div>
-												<div class="col-md-8">
-													<div class="parallax-2-container">
-												<p>Compara uno a uno tecnología según su precio de mercado, consumo energético y vida útil.</p>
-												<p>Construye diagnósticos de potenciales de ahorro energético en todo tu hogar.</p>
-												<p>Elige la tecnología ideal para ti, cómprala y espera que la instalemos donde tú quieras.</p>
-												<p>Comienza a ahorrar y a cambiar el mundo ahora.</p>
-												<div class="store-section">
+											</section>
+											<section class="module content vertical-align">
 
-													<div class="col-md-6 text-center"><button type="button" class="btn btn-transparent margin-button">
-                                        <img src="media/store/appStore.png" alt="">
-                                    </button></div>
-													<div class="col-md-6 text-center"><button type="button" class="btn btn-transparent margin-button">
-                                        <img src="media/store/appStore.png" alt="">
-                                    </button></div>
-                                    </div>
+												<a href="http://www.startupchile.org/"><img class="img-footer" src="./media/logos/start.png" alt=""></a>
+												<a href="http://efficienza.org/"><img class="img-footer" src="./media/logos/efficienza.png" alt=""></a>
+												<a href="http://greentownlabs.org/"><img class="img-footer" src="./media/logos/green.png" alt=""></a>
+
+
+
+											</section>
+											<section class="module parallax parallax-3">
+												<div class="container">
+													<h1>Skills!</h1>
 												</div>
-											</div>
-										</div>
-										</section>
-										<section class="module content vertical-align">
+											</section>
 
-											<a href="http://www.startupchile.org/"><img class="img-footer" src="/dist/media/logos/start.png" alt=""></a>
-											<a href="http://efficienza.org/"><img class="img-footer" src="../efficienza.png" alt=""></a>
-											<a href="http://greentownlabs.org/"><img class="img-footer" src="../green.png" alt=""></a>
-
-
-
-										</section>
-										<section class="module parallax parallax-3">
-											<div class="container">
-												<h1>Skills!</h1>
-											</div>
-										</section>
-
-									</main>
-								</div>
-							</body>
-							</html>
+										</main>
+									</div>
+								</body>
+								</html>
