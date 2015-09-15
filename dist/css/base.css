@@ -4,9 +4,9 @@ section.module h2 {
   font-size: 35px; }
 
 section.module p {
-  margin-bottom: 40px;
-  font-size: 16px;
-  font-weight: 300; }
+  margin-bottom: 10px;
+ font-size: 1.5em;
+    font-weight: 100;}
 
 section.module p:last-child {
   margin-bottom: 0; }
@@ -19,7 +19,8 @@ section.module .content {
   margin:20px 0px; }
 
 section.parallax {
-  
+
+  color: white; 
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -38,8 +39,7 @@ section.parallax {
 
 section.parallax-1 {
   background-image: url("../media/bg/bgOrange.png");
-  height: 350px;
-  color: white; }
+  height: 400px;}
   section.parallax-1.body {
     position: relative;
     top: 20px; }
@@ -57,7 +57,8 @@ section.parallax-3 {
   video{
 width: 100%;
   }
-  #video-full{    box-shadow: 15px 15px 44px grey;}
+  #video-full{    box-shadow: 15px 15px 44px grey;
+  width: 100%;}
   
   section.content.vertical-align  {
     margin:0px 0px; 
@@ -100,3 +101,129 @@ section.content.vertical-align a:hover{
     margin-right: auto;
     height: 80px;
 }  
+
+.iphone
+{
+
+background-image: url(../media/iphone/iphone1.png);
+background-size: 293px 488px;
+width: 100%;
+height: 480px;
+background-repeat: no-repeat;
+padding-left: 60px;
+}
+
+.padd-bot
+{
+  padding: 30px;
+}
+
+
+.iphone-content{
+  position: relative;
+  width: 209px;
+  top:69px;
+  padding-left: 0px;
+  right:11px;
+}
+
+#iphone{
+  bottom: 65px;
+}
+
+div#slider figure img {
+    width: 20%;
+    float: left;
+}
+
+@keyframes slidy {
+0% { left: 0%; }
+10% { left: -0%; }
+12.5% { left: -100%; }
+22.5% { left: -100%; }
+25% { left: -200%; }
+35% { left: -200%; }
+37.5% { left: -300%; }
+47.5% { left: -300%; }
+50% { left: -200%; }
+60% { left: -200%; }
+62.5% { left: -100%; }
+75% { left: -100%; }
+80% { left: -300%; }
+87.5% { left: -300%; }
+90% { left: -0%; }
+100% { left: -0%; }
+}
+
+@-webkit-keyframes slidy {
+0% { left: 0%; }
+10% { left: -0%; }
+12.5% { left: -100%; }
+22.5% { left: -100%; }
+25% { left: -200%; }
+35% { left: -200%; }
+37.5% { left: -300%; }
+47.5% { left: -300%; }
+50% { left: -200%; }
+60% { left: -200%; }
+62.5% { left: -100%; }
+75% { left: -100%; }
+80% { left: -300%; }
+87.5% { left: -300%; }
+90% { left: -0%; }
+100% { left: -0%; }
+}
+
+div#slider { overflow: hidden; }
+div#slider figure img
+{ width: 20%; 
+  float: left; 
+}
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 15s slidy infinite; 
+}
+
+.margin{
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+
+.parallax-2-container{
+  margin-top:70px;
+}
+
+.btn-transparent {
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #FFFFFF;
+    padding: 12px 18px;
+    width: 240px;
+    border-radius: 3px;
+}
+
+.store-section{
+  margin-top: 40px;
+}
+
+.menu-bar{
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-nav {
+    
+    padding-top: 20px;
+}
