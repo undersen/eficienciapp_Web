@@ -227,7 +227,27 @@ div#slider figure {
     
     padding-top: 20px;
 }
+.navbar-default .navbar-nav > li > a {
+    color: #FFF;
+    font-size:16px;
+    font-weight: 200;
+}
 
+
+  
 #charts{
-  height: 400px;
+  height: auto;
+      margin-bottom: 30px;
+}
+
+#charts img{
+     height: 100px;
+     position: absolute;
+    z-index: 1;
+    left: 20%;
+}
+
+
+#charts.margin h2{
+  margin-bottom: 0px;
 }
