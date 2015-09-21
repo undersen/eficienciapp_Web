@@ -256,3 +256,8 @@ div#slider figure {
     background-color: transparent;
     border-color: transparent;
 }
+
+
+.parallax-1-container{
+  margin: 0px 30px;
+}
