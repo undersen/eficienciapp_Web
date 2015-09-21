@@ -251,3 +251,8 @@ div#slider figure {
 #charts.margin h2{
   margin-bottom: 0px;
 }
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
